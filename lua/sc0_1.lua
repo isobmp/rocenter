@@ -1,5 +1,6 @@
 print('RoCenter Injectable Client has finished injecting.')
 
+-------] flyhack
 repeat wait() 
 	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
 local mouse = game.Players.LocalPlayer:GetMouse() 
@@ -80,3 +81,9 @@ ctrl.r = 0
 end 
 end)
 Fly()
+----------] block hat
+for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if (v:IsA("Accessory")) then
+v.Handle.Mesh:remove()
+end
+end
