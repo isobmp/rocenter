@@ -4,3 +4,5 @@
 - Flyhack, F to toggle
 - Block Hat, wear any hat (head accessory) for it to become a block
 - oh i also made it so you legit have a brick sized head so, good luck making friends now
+##
+if you couldnt tell, this is a big joke
