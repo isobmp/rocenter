@@ -87,3 +87,5 @@ if (v:IsA("Accessory")) then
 v.Handle.Mesh:remove()
 end
 end
+----------] haha L brickface
+game.Players.LocalPlayer.Character.Head.Mesh:Destroy()
